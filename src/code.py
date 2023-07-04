@@ -2,6 +2,10 @@ import sys
 import os
 
 
+
+
+
+
 cwd = os.getcwd()
 
 print("the current workdir is ", cwd)
