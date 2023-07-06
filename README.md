@@ -31,3 +31,50 @@ git add .
 ```shell
 pip install -r requirements.txt
 ```
+#### Decomposition 
+```shell
+把一个大步骤分解成一个小的步骤，每一个小步骤里面也会有相应的步骤
+例如：把大象放进冰箱需要分成三步（大步骤）：
+    1. 把冰箱打开
+    2. 把大象放进去
+    3. 把冰箱关上
+每一个大步骤的小步骤：
+    把冰箱打开：
+        1. 用手握住冰箱把手
+        2. 打开冰箱门
+    把大象放进去：
+        1. 拿起大象
+        2. 把大象放进去
+    把冰箱关上：
+        1. 把手放在冰箱上
+        2. 把门关上
+分解成每一个小步骤，这就是decomposition
+```
+
+####  What  is abstraction:
+```shell
+隐藏不必要的信息来处理具有复杂性的过程
+有些东西我只需要知道怎么运行就好，不需要知道运行的原理是什么
+```
+
+#### Whay is function
+```shell
+def + name + (parameters可以不写，也可以写很多个):
+    code
+    return(可以有return，也可以没有，没有就会print none)
+```
+
+#### Adcantages and disadvantages of writng function
+```shell
+ad: 如果在这个function我每次都需要重新写一次在main function里面，我
+就可以把它放在function里面，每次需要的时候引用特定的function即可，不需要
+重新再写一次
+disad：如果写在function里面的东西太多，function内存不够，跑不过来，可能
+会导致系统崩溃，直接黑屏。
+```
+
+#### Global scope & Variable scope
+```shell
+variable scope： 简单理解为在function里面的定义为variable scope
+Global scope: 写在file全局的定义为global scope
+```
