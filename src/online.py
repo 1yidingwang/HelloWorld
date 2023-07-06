@@ -30,7 +30,6 @@ f(188)
 f(65)
 
 #无赋值，无字符串，print none
-#在function里面加if statement
 def f():
     print("i'm eating nothing")
 
@@ -39,7 +38,7 @@ print(f())
 #global scope and variable scope
 a = 12
 def func():
-    a = "15"  
+    a = 5 
     print("variable scope: ", a)
     return
 
