@@ -1,3 +1,5 @@
+import f from fun
+
 s = "abcdefgh"
 for index in range(len(s)):
     if s[index] == 'e' or s[index] == 'u':

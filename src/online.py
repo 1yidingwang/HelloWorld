@@ -36,13 +36,13 @@ def f():
 print(f())
 
 #global scope and variable scope
-a = 12
+a = 'global scope'
 def func():
-    a = 5 
-    print("variable scope: ", a)
+    a = 'variable scope'
+    print("test inside:  ", a)
     return
 
 print(func())
-print("Global scope: ", a)
+print("test outside: ", a)
 
 
