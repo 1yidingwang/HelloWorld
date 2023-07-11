@@ -78,3 +78,30 @@ disad：如果写在function里面的东西太多，function内存不够，跑�
 variable scope： 简单理解为在function里面的定义为variable scope
 Global scope: 写在file全局的定义为global scope
 ```
+
+#### 与tuple相似的四种类型
+```shell
+ tuple
+ list 
+ set
+ dictionary
+```
+
+#### What is tuple (元组)
+```shell
+Tuple 是基本数据结构之一，元组中元素不允许被修改，因此元组也被称作只读列表
+元组使用小括号 "()" 包裹，元素之间使用逗号 “," 分隔。
+元组中的元素可以是字符串、数字等数据, 能够储存数据
+特点：
+    1. tuple元素不能被修改
+    2. 不同的tuple可以被整合，相加
+    3. 元素不能被删除，但是可以删掉整个tuple
+优点：
+    1. 由于不可变的特性，不必担心会在code的过程中失误改变值的大小或名称
+    2. 性能快：能更快的创建，需要的空间更小
+    3. 可以作为dictionary的key，因为key不能被改变
+    4. 可以很快的交换数值
+缺点：
+    1. 不能灵活的改变元素
+```
+
