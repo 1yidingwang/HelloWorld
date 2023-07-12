@@ -117,3 +117,49 @@ list的空间多，因为list.后面的function很多，有count，reserve, inse
 >>> a.__sizeof__() <-加括号的原因是因为这是一个function
 48
 ```
+
+#### List
+```shell
+储存data，用[]书写，元素用逗号分隔。
+list.extend可以加多个元素
+list.append只能加一个元素
+删除元素用del或者list.remove()
+del list[]删除索引目标
+list.remove删除指定元素
+list.pop删除最右面的元素
+list,insert(位置，想添加的元素)
+list.sort()按照字母顺序或大小排序
+list.clear()清除所有element
+```
+#### 2D List
+```shell
+有多个list，把他们放在同一个variable里面
+第一个index是list，第二个index是list里面的element
+比如：
+    food = ['ham','noo','rice']
+    drink = ['tea','juice','coffee']
+    animal = ['mon','cat','dog']
+    
+    total = [food + drink + animal]
+    print(total[0][1]) -> 打印‘noo’
+```
+
+#### What is set
+```shell
+set可以储存data，用大括号{}书写，用逗号，分隔
+特点：
+1. 不一定会按照顺序书写，意味着元素在索引中是单独储存的
+#我理解的是每一个元素都是单独的个体，不像是list一样把所有元素捆绑到一起
+2. 里面不能拥有同样的元素，即使有也只会打印一次
+3. 跟list一样有很多的methane，set.后面
+优点：
+1. 因为不会有相同的element，所以能够有效的在一组数据中删除重复元素
+2. 能够更有效的实现membership test
+#membership test就是测试这个set里面有没有我想要的element
+#最终结果显示true/false
+缺点：
+1. 因为是无序的，所以不能被index，只能用pointer
+2. set的时间复杂度是logN
+```
+
+#### list/set comprehension in python
